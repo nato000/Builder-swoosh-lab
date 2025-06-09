@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/Builder-swoosh-lab/",
   server: {
     host: "::",
     port: 8080,
